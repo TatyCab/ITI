@@ -1,0 +1,92 @@
+@media screen and (max-width:600px) {
+
+    .Contenido {
+        display: flex;
+    }
+
+    nav {
+        width: 20vh;
+        height: 60vh;
+        flex-direction: column;
+    }
+
+    .CabeceraLogo {
+        display: flex;
+        width: 20vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CabeceraOpciones {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    header {
+        width: 80vw;
+        height: 60vh;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .Articulo1,
+    .Articulo2,
+    .Articulo3 {
+        width: 80vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Articulo1 {
+        background-image: url(/Recursos/videojuegos.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .Articulo2 {
+        background-image: url(/Recursos/Peli.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .Articulo3 {
+        background-image: url(/Recursos/Series.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    h2 {
+        display: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        width: 20vw;
+        display: block;
+
+    }
+
+    li {
+        float: left;
+        flex-grow: 1;
+
+    }
+
+    .img1 img,
+    .img2 img,
+    .img3 img {
+        display: none;
+    }
+}
